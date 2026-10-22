@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "document": "normal.pdf",
+  "sha256": "1aa063c1d8e17c9c0f275cfb3910401fc8c8b0c3229456aea51f821899b97dac",
+  "provider": "deterministic-template",
+  "spec": {
+    "principal": "1000.00",
+    "currency": "USD",
+    "scenario": "BASE",
+    "years": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "template": "synthetic-v1"
+  },
+  "valid": true,
+  "reviewStatus": "PENDING_REVIEW",
+  "errors": [],
+  "rows": [
+    {
+      "candidate": {
+        "scenario": "BASE",
+        "year": 1,
+        "value": "1100.00",
+        "ratio": "110.00",
+        "evidence": {
+          "page": 1,
+          "line": 5,
+          "text": "BASE | 1 | 1100.00 | 110.00"
+        }
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "candidate": {
+        "scenario": "BASE",
+        "year": 2,
+        "value": "1200.00",
+        "ratio": "120.00",
+        "evidence": {
+          "page": 1,
+          "line": 6,
+          "text": "BASE | 2 | 1200.00 | 120.00"
+        }
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "candidate": {
+        "scenario": "BASE",
+        "year": 3,
+        "value": "1300.00",
+        "ratio": "130.00",
+        "evidence": {
+          "page": 1,
+          "line": 7,
+          "text": "BASE | 3 | 1300.00 | 130.00"
+        }
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "candidate": {
+        "scenario": "BASE",
+        "year": 4,
+        "value": "1400.00",
+        "ratio": "140.00",
+        "evidence": {
+          "page": 1,
+          "line": 8,
+          "text": "BASE | 4 | 1400.00 | 140.00"
+        }
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "candidate": {
+        "scenario": "BASE",
+        "year": 5,
+        "value": "1500.00",
+        "ratio": "150.00",
+        "evidence": {
+          "page": 1,
+          "line": 9,
+          "text": "BASE | 5 | 1500.00 | 150.00"
+        }
+      },
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "source": [
+    {
+      "page": 1,
+      "line": 1,
+      "text": "EVIDENCE LAB / SYNTHETIC REPORT"
+    },
+    {
+      "page": 1,
+      "line": 2,
+      "text": "Not a financial product. No real customer data."
+    },
+    {
+      "page": 1,
+      "line": 3,
+      "text": "Principal: 1000.00 USD | Scenario: BASE | Years: 1-5"
+    },
+    {
+      "page": 1,
+      "line": 4,
+      "text": "Scenario    Year     End value USD     Ratio percent"
+    },
+    {
+      "page": 1,
+      "line": 5,
+      "text": "BASE | 1 | 1100.00 | 110.00"
+    },
+    {
+      "page": 1,
+      "line": 6,
+      "text": "BASE | 2 | 1200.00 | 120.00"
+    },
+    {
+      "page": 1,
+      "line": 7,
+      "text": "BASE | 3 | 1300.00 | 130.00"
+    },
+    {
+      "page": 1,
+      "line": 8,
+      "text": "BASE | 4 | 1400.00 | 140.00"
+    },
+    {
+      "page": 1,
+      "line": 9,
+      "text": "BASE | 5 | 1500.00 | 150.00"
+    },
+    {
+      "page": 1,
+      "line": 10,
+      "text": "Validation rule: end value = principal x ratio / 100."
+    },
+    {
+      "page": 1,
+      "line": 11,
+      "text": "Rows are intentionally malformed in negative samples."
+    },
+    {
+      "page": 1,
+      "line": 12,
+      "text": "Demo template v1 / Page 1"
+    }
+  ]
+}
